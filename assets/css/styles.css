@@ -1,0 +1,382 @@
+*, 
+*:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+}
+
+h1 {
+  font-size: 1rem;
+}
+
+.container.d-inline-block {
+  padding: 0 230px;
+  width: 100%;
+  max-width: 1450px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+@media (min-width: 992px) {
+  .container.d-inline-block {
+    padding: 0 110px;
+  }
+}
+
+@media (max-width: 1300px) {
+  .container.d-inline-block {
+    padding: 0 150px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container.d-inline-block {
+    padding: 0 70px;
+    width: 100%;
+    max-width: 820px;
+    margin: 0 auto;
+  }
+}
+
+#row-header {
+  padding: 0 15px;
+  font-size: 27px;
+  border-bottom: 1px solid #d4d9dd;
+}
+
+#nav_col1 {
+  border-bottom: 2px solid black;
+}
+
+#nav2 {
+  color: #d4d9dd;
+}
+
+#nav3 {
+  color: #d4d9dd;
+}
+
+@media (max-width: 768px) {
+  #nav3 {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  #nav2 {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  #titel {
+    margin-top: 100px;
+  }
+}
+
+@media (min-width: 768px) {
+  #titel {
+    margin-top: 200px;
+  }
+}
+
+@media (min-width: 768px) {
+  #col1 {
+    padding-right: 25px;
+  }
+}
+
+@media (min-width: 768px) {
+  #col2 {
+    padding-left: 25px;
+  }
+}
+
+#fistName_input:valid {
+  color: #788995;
+  border: 2px solid black;
+}
+
+#fistName_input:invalid {
+  color: red;
+  border: 2px solid red;
+}
+
+#fistName_input:not(:focus):invalid {
+  color: rgb(7,7,7);
+  border: 2px solid #d4d9dd;
+}
+
+@media (min-width: 768px) {
+  #fistName {
+    margin-top: 110px;
+  }
+}
+
+@media (min-width: 768px) {
+  #adress {
+    margin-top: 55px;
+  }
+}
+
+@media (min-width: 768px) {
+  #country_city {
+    margin-top: 70px;
+  }
+}
+
+#codeButton {
+  border-color: #d4d9dd;
+}
+
+@media (min-width: 768px) {
+  #codePhone {
+    margin-top: 70px;
+  }
+}
+
+@media (min-width: 768px) {
+  #col1-button {
+    max-width: 500px;
+  }
+}
+
+@media (min-width: 768px) {
+  #col2-button {
+    max-width: 500px;
+  }
+}
+
+#button {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (min-width: 768px) {
+  #button {
+    margin-top: 70px;
+  }
+}
+
+#button {
+  margin-top: 100px;
+}
+.button {
+  color: #7e8e99;
+  background-color: #ffffff;
+}
+
+.button:hover {
+  color: #ffffff;
+  background-color: blue;
+}
+
+/* Страница 02 */
+
+#nav_col2_page2 {
+  color: #212121;
+  border-bottom: 2px solid black;
+}
+
+#nav1_page2 {
+  color: #d4d9dd;
+}
+
+#nav3_page2 {
+  color: #d4d9dd;
+}
+
+@media (max-width: 768px) {
+  #nav1_page2 {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  #nav3_page2 {
+    display: none;
+  }
+}
+
+#rowMap {
+  margin-top: 45px;
+}
+
+#colText {
+  border: 1px solid #5e666c;
+}
+
+#colMap {
+  border: 1px solid #5e666c;
+}
+
+#address {
+  margin-top: 55px;
+  font-size: 27px;
+  color: #0095f8;
+}
+
+@media (max-width: 1000px) {
+  #address {
+    padding-bottom: 90px;
+    font-size: 20px;
+  }
+}
+
+#addNew {
+  padding-left: 10%;
+}
+
+#Method {
+  margin: 90px 0 0;
+  height: auto;
+}
+
+#textMehod1, #textMehod2 {
+  border: 1px solid black;
+  width: 100%;
+  height: 100%;
+}
+
+@media (min-width: 768px) {
+  #textMehod {
+    margin-left: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  #textMehod2 {
+    margin-top: 20px;
+  }
+}
+
+#textMehod1, #textMehod2 {
+  padding: 80px;
+}
+
+@media (max-width: 1200px) {
+  #textMehod1, #textMehod2 {
+    padding: 20px;
+  }
+}
+
+/* Button */
+
+#titelRadioButton {
+  display: flex;
+  font-size: 30px;
+  justify-content: space-between;
+}
+
+@media (max-width: 1400px) {
+  #titelRadioButton {
+    font-size: 18px;
+  }
+}
+
+#radioButton {
+  color: #212121;
+}
+
+#freeText {
+  color: #212121;
+}
+
+#textRadioButton {
+  font-size: 28px;
+  color: #9b9fa3;
+}
+
+@media (max-width: 1400px) {
+  #textRadioButton {
+    font-size: 20px;
+    color: #9b9fa3;
+  }
+}
+
+/* Radio input */
+
+#formCheck-1, #formCheck-2 {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+}
+
+#radioLabel {
+  padding-left: 20px;
+}
+
+#radioLabel:before {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 30px;
+  border: 2px solid #0095f8;
+  border-radius: 50%;
+  position: absolute;
+  top: 5px;
+  left: 0;
+  z-index: 1;
+}
+
+@media (max-width: 1400px) {
+  #radioLabel:before {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #0095f8;
+    border-radius: 50%;
+    position: absolute;
+    top: 5px;
+    left: 0;
+    z-index: 1;
+  }
+}
+
+#radioLabel:after {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #0095f8;
+  position: absolute;
+  top: 10px;
+  left: 5px;
+  z-index: 2;
+  opacity: 0;
+}
+
+@media (max-width: 1400px) {
+  #radioLabel:after {
+    content: "";
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #0095f8;
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    z-index: 2;
+    opacity: 0;
+  }
+}
+
+#formCheck-1:checked + #radioLabel:after {
+  opacity: 1;
+}
+
+#formCheck-2:checked + #radioLabel:after {
+  opacity: 1;
+}
+
+
+
